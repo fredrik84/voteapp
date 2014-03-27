@@ -1,0 +1,15 @@
+INSTALL
+----------------------------------------------------
+This should be as easy as putting all the files where you want them.
+
+Make sure that .htaccess is accessible in the root directory of frontend/ and admin/
+
+And just running:
+mysql -u<username> -p<password> <database> < database/voteapp_core.sql
+
+The default username is 'admin' and the password is 'voteapp'.
+
+For the api configuration to work for FRONTEND and ADMIN pages, edit the config.php in each directory
+and point to the correct url where API folder is located...
+Only the API folder contains database configuration in it's config.php.
+Default database name, username and password is "voteapp" and the default hostname is localhost
