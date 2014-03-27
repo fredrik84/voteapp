@@ -1,0 +1,11 @@
+RewriteEngine On
+RewriteRule ^.*/$ index.php [NC,L]
+
+php_value upload_max_filesize 1500M
+php_value post_max_size 1500M
+
+
+<Files "config.php">
+   Order Allow,Deny
+   Deny from all
+</Files>

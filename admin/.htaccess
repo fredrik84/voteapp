@@ -1,0 +1,7 @@
+RewriteEngine On
+RewriteRule ^.*/$ index.php [NC,L]
+
+<Files "config.php">
+   Order Allow,Deny
+   Deny from all
+</Files>

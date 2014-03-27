@@ -1,0 +1,10 @@
+p {
+   background-color:#bca;
+   width:200px; 
+   border:1px solid green; 
+}
+div { 
+   width:100px; 
+   height:100px; 
+   background:red;  
+}
